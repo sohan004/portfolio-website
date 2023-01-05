@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+.btn-primary {
+    color: #FD6E0A;
+}
+
+.nav-btn {
+    font-size: 20px;
+    border: none;
+    /* width: 86px; */
+    height: 57px;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 7px;
+    background-color: #FD6E0A;
+    color: white;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 50px 0px 200px;
+}
+
+.banner-h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-h1 {
+    font-weight: 700;
+    font-size: 85px;
+    margin: 5px 0 20px 0;
+}
+
+.banner-p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.banner-btn1 {
+    font-size: 20px;
+    border: none;
+    /* width: 86px; */
+    height: 57px;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 7px;
+    background-color: #FD6E0A;
+    color: white;
+    margin-right: 10px;
+    transition: 0.3s;
+    
+}
+.banner-btn1:hover{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: rgb(255, 255, 255);
+}
+.banner-btn2 {
+    font-size: 20px;
+    border: none;
+    /* width: 86px; */
+    height: 57px;
+    font-weight: 700;
+    margin-left: 10px;
+    padding: 12px 35px;
+    border-radius: 7px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: white;
+    transition: 0.3s;
+}
+.banner-btn2:hover{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border: none;
+}
+.header {
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.abt {
+    margin: 103px 0;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.abt-h {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.abt-p {
+    color: #757575;
+}
+
+.abtt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.abt-fp {
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.abt-pp {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+.wht {
+    text-align: center;
+    margin-bottom: 103px;
+}
+
+.wht-h {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.wht-P {
+    color: #757575;
+}
+
+.skill-con {
+    display: flex;
+    margin-bottom: 130px;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    width: 267px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-h {
+    margin: 25px 0 15px 0;
+    font-weight: 700;
+}
+
+.skill-p {
+    color: #757575;
+}
+.resume-h{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.rsm-d11{
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.rsm-h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.rsm-h31{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.rsm-h32{
+    font-weight: 600;
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.rsm-p{
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+.rsm{
+    display: flex;
+    gap: 20px;
+}
+.rsm-btn{
+    font-size: 20px;
+    border: none;
+    /* width: 86px; */
+    height: 57px;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 7px;
+    background-color: #FD6E0A;
+    color: white;
+    transition: 0.3s;
+}
+.rsm-btn:hover{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: rgb(255, 255, 255);
+}
+.rsm-btn-div{
+    text-align: center;
+}
+.resume{
+    margin-bottom: 115px;
+}
+.cnt-h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.connect{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+input{
+    width: 150%;
+    padding: 13px;
+    font-size: 1rem;
+    background-color: #eeeeee;
+    border: none;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+textarea{
+    width: 150%;
+    padding: 13px;
+    font-size: 1rem;
+    background-color: #eeeeee;
+    border: none;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
